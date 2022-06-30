@@ -50,6 +50,6 @@ else if( computerMove == playerMove ) {
     printMessage('Remis!');
 }
 
-else((computerMove == 'kamień' || 'papier' || 'nożyce') && playerMove == 'nieznany ruch') 
+else{((computerMove == 'kamień' || 'papier' || 'nożyce') && playerMove == 'nieznany ruch')
     printMessage('Nieznany ruch!');
-
+}
