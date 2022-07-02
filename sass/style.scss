@@ -1,0 +1,40 @@
+/* Variables */
+$font-text: "Finlandica", sans-serif;
+$color-one: #dfe6e9;
+$color-two: #b2bec3;
+$color-three: #2d3436;
+$transition: all 0.5s;
+
+body {
+    font-family: $font-text;
+    text-align: center;
+    background-color: $color-one;
+    font-size: 50px;
+    color: $color-three;
+    background-image: url("https://cdn.pixabay.com/photo/2013/07/12/15/02/fingers-149295_960_720.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-blend-mode: overlay;
+}
+
+button {
+    min-width: 160px;
+    padding: 15px;
+    border-radius: 5px;
+    font-family: $font-text;
+    font-size: 25px;
+    cursor: pointer;
+    border: 3px;
+    border-style: solid;
+    border-color: $color-three;
+    transition: $transition;
+    margin-bottom: 50px;
+    background-position: 100% 0;
+    background-size: 300%;
+    background-image: linear-gradient(45deg, $color-two 50%, transparent 50%);
+}
+
+button:hover {
+    background-position: 0 100%;
+}

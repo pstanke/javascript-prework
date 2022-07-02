@@ -1,0 +1,36 @@
+/* Variables */
+body {
+  font-family: "Finlandica", sans-serif;
+  text-align: center;
+  background-color: #dfe6e9;
+  font-size: 50px;
+  color: #2d3436;
+  background-image: url("https://cdn.pixabay.com/photo/2013/07/12/15/02/fingers-149295_960_720.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-blend-mode: overlay;
+}
+
+button {
+  min-width: 160px;
+  padding: 15px;
+  border-radius: 5px;
+  font-family: "Finlandica", sans-serif;
+  font-size: 25px;
+  cursor: pointer;
+  border: 3px;
+  border-style: solid;
+  border-color: #2d3436;
+  transition: all 0.5s;
+  margin-bottom: 50px;
+  background-position: 100% 0;
+  background-size: 300%;
+  background-image: linear-gradient(45deg, #b2bec3 50%, transparent 50%);
+}
+
+button:hover {
+  background-position: 0 100%;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxjQUFBO0FBT0E7RUFDSSxxQ0FQUTtFQVFSLGtCQUFBO0VBQ0EseUJBUlE7RUFTUixlQUFBO0VBQ0EsY0FSVTtFQVNWLGtHQUFBO0VBQ0Esc0JBQUE7RUFDQSw0QkFBQTtFQUNBLHdCQUFBO0VBQ0EsOEJBQUE7QUNMSjs7QURRQTtFQUNJLGdCQUFBO0VBQ0EsYUFBQTtFQUNBLGtCQUFBO0VBQ0EscUNBdkJRO0VBd0JSLGVBQUE7RUFDQSxlQUFBO0VBQ0EsV0FBQTtFQUNBLG1CQUFBO0VBQ0EscUJBekJVO0VBMEJWLG9CQXpCUztFQTBCVCxtQkFBQTtFQUNBLDJCQUFBO0VBQ0EscUJBQUE7RUFDQSxzRUFBQTtBQ0xKOztBRFFBO0VBQ0ksMkJBQUE7QUNMSiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
