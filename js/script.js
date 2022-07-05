@@ -1,8 +1,8 @@
 {
-    function playGame(playerInput) {
+    const playGame = function (playerInput) {
         clearMessages();
 
-        function getMoveName(argMoveId) {
+        const getMoveName = function (argMoveId) {
             if (argMoveId == 1) {
                 return "kamień";
             } else if (argMoveId == 2) {
@@ -12,7 +12,7 @@
             } else {
                 return "nieznany ruch";
             }
-        }
+        };
 
         const randomNumber = Math.floor(Math.random() * 3 + 1),
             computerMove = getMoveName(randomNumber),
@@ -24,7 +24,7 @@
         printMessage("Mój ruch to: " + computerMove);
         printMessage("Twój ruch to: " + playerMove);
 
-        function getResult(argComputerMove, argPlayerMove) {
+        const getResult = function (argComputerMove, argPlayerMove) {
             const result = document.getElementById("result");
 
             if (
@@ -53,9 +53,9 @@
             } else {
             }
             result.innerHTML = `${playWins} : ${draft} : ${comWins}`;
-        }
+        };
         getResult(computerMove, playerMove);
-    }
+    };
     let comWins = 0,
         playWins = 0,
         draft = 0;
