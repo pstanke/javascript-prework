@@ -14,18 +14,14 @@
             }
         }
 
-        const randomNumber = Math.floor(Math.random() * 3 + 1);
+        const randomNumber = Math.floor(Math.random() * 3 + 1),
+            computerMove = getMoveName(randomNumber),
+            playerMove = getMoveName(playerInput);
 
         console.log("Wylosowana liczba to: " + randomNumber);
-
-        const computerMove = getMoveName(randomNumber);
-
-        printMessage("Mój ruch to: " + computerMove);
-
         console.log("Gracz wpisał: " + playerInput);
 
-        const playerMove = getMoveName(playerInput);
-
+        printMessage("Mój ruch to: " + computerMove);
         printMessage("Twój ruch to: " + playerMove);
 
         function getResult(argComputerMove, argPlayerMove) {
@@ -60,9 +56,9 @@
         }
         getResult(computerMove, playerMove);
     }
-    let comWins = 0;
-    let playWins = 0;
-    let draft = 0;
+    let comWins = 0,
+        playWins = 0,
+        draft = 0;
     const result = document.getElementById("result");
     result.innerHTML = `${playWins} : ${draft} : ${comWins}`;
 
